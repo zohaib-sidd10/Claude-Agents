@@ -1,0 +1,39 @@
+# Environment & Secrets
+.env
+.env.local
+*.api_key
+credentials.json
+secrets/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node/Python (if you add these later)
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Generated files (keep examples, exclude temp)
+*.tmp
+.cache/
+build/
+dist/
+
+# Large files
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+npm-debug.log*
